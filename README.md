@@ -13,7 +13,7 @@ This is a quick hack work in progress, mainly to test out if it was technically 
 ## How to use 
 
 
-- download the app from the [github project releases session](https://github.com/pietrop/srt_to_FCP7XML-markers_electron/releases)
+- download the app from the [github project releases section](https://github.com/pietrop/srt_to_FCP7XML-markers_electron/releases)
 
 - open the `.dmg` file on your mac, and install the app by dragging it int he applications folder
 
