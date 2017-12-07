@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Srt --> FCP7 XML Markers </title>
+  <link href="css/bootstrap.min.css" rel="stylesheet" >
+</head>
+<body>
+
+  <div class="container">
+    <h2>Srt --> FCP7 XML Markers </h2>
+    <p>For Adobe Premiere.</p>
+
+    <!-- fps -->
+    
+     <label for="exampleInputEmail1">Fps </label>
+      <input  class="form-control" id="fpsInput" aria-describedby="emailHelp" placeholder="30" value="30">
+      <small  class="form-text text-muted">Fps of the sequence</small>
+
+    <!-- Open dialog button  -->
+    <div class="form-group">
+      <label for="exampleInputFile"></label>
+      <a type="button" class="btn btn-primary" id="srtInputFileBtn" >Srt File input</a>
+      <br>
+      <small id="fileHelp" class="form-text text-muted">Choose an srt, subtitles files you'd like to convert into an FCP7 XML sequence, that can be opened as an adobe premiere sequence with the text as markers</small>
+    </div>
+
+    <!-- Div to preview file path -->
+    <br>
+    <div id="srtFilePreview"></div>
+    <!-- Save button? -->
+
+    <!-- Notice div to show where xml has been saved, on desktop, and file type.  -->
+    <hr>
+     <div id="xmlFCP7Preview"></div>
+</body>
+<script>
+  // You can also require other files to run in this process
+  require('./renderer.js');
+</script>
+</html>
