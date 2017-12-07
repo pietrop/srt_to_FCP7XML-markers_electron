@@ -12,6 +12,13 @@ This is a quick hack work in progress, mainly to test out if it was technically 
 
 ## How to use 
 
+
+- download the app from the [github project releases session](https://github.com/pietrop/srt_to_FCP7XML-markers_electron/releases)
+
+- open the `.dmg` file on your mac, and install the app by dragging it int he applications folder
+
+- opent he app 
+
 - Get an srt file 
 - Open the srt file with the app 
 - when the app is done it save an xml (FCP7 XML) on your desktop, with the same name as the srt file. 
